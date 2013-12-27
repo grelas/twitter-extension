@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
+
+/*font-family: 'PT Serif', serif;*/
+body {
+  background-image: none !important;
+  /*background-color: #DDE7EC !important;*/
+}
+
+body, label, input, textarea, select, button {
+  /*font-family: 'Source Sans Pro', sans-serif !important;*/
+}
+
+.dashboard,
+.wtf-module.has-content,
+.module.trends,
+.Footer.module {
+  display: none !important;
+}
+
+.content-main {
+  float: none !important;
+  width: 100% !important;
+}
+
+.wrapper, 
+.wrapper-narrow, 
+.wrapper-permalink{
+  width: 575px !important;
+}
+
+.tweet {
+  padding: 15px !important;
+}
+
+.avatar {
+  border-radius: 50px !important;
+}
+
+.stream-item-header .avatar, .permalink-header .avatar {
+  margin-left: -66px !important;
+}
+
+.stream-item .content, .permalink-tweet .content {
+  margin-left:  66px !important
+}
+
+/* Profile */
+.profile-card.profile-header {
+  float: none !important;
+  width: 100% !important;
+}
+
+.profile-header-inner-overlay {
+  width: 100% !important;
+}
+
+.recent-tweets .tweet .avatar {
+  margin-left:-49px !important;
+}
+
+.recent-tweets .tweet .content {
+  margin-left: 50px !important;
+}
+
+body .wrapper-profile .profile-card.profile-header .profile-header-inner {
+  background-size: cover !important;
+}
+
+.persistent-inline-actions .tweet .tweet-actions {
+  opacity: 0 !important;
+  color: #999 !important;
+  transition: opacity 200ms linear !important;
+}
+
+.stream .tweet:hover .tweet-actions {
+  opacity: 1 !important;
+}
