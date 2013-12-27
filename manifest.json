@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Streamline",
+  "version": "1.0",
+  "description": "A streamlined styling for Twitter.",
+
+  "icons": {
+    "48": "img/twitter-48.png",
+    "128": "img/twitter.png"
+  },
+
+  "content_scripts": [
+    {
+      "css": ["css/main.css"],
+      "js": ["js/jquery.min.js", "js/script.js"],
+      "matches": ["*://twitter.com/*"],
+      "run_at": "document_start"
+    }
+  ]
+}
