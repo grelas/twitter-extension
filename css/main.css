@@ -32,15 +32,40 @@ body, label, input, textarea, select, button {
   padding: 15px !important;
 }
 
+.stream-item-activity .latest-tweet {
+  padding:3px !important;
+}
+
+.stream-item-activity .tweet-content {
+  margin-bottom: 0 !important;
+}
+
+.stream-item-activity-line-me {
+  padding-top:15px !important;
+}
+
+.stream-item-activity-me .activity-supplement {
+  padding-bottom:15px !important;
+}
+
+.stream-item-activity-me .activity-type {
+  top: 15px !important;
+}
+
+.stream-item-activity-me .activity-additional-info {
+  margin: 14px 17px 0 0 !important;
+}
+
 .avatar {
   border-radius: 50px !important;
 }
 
-.stream-item-header .avatar, .permalink-header .avatar {
+.stream-item-header .avatar {
   margin-left: -66px !important;
 }
 
-.stream-item .content, .permalink-tweet .content {
+
+.stream-item .content, .permalink .content, .permalink-tweet .content {
   margin-left:  66px !important
 }
 
